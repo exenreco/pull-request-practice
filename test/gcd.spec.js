@@ -1,4 +1,4 @@
-import gcd from './gcd';
+import gcd from '../src/gcd';
 
 describe('gcd', () => {
   test('calculates GCD of 8 and 12 correctly', () => {

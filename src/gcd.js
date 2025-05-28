@@ -1,10 +1,8 @@
-function gcd(a, b) {
+export default function gcd(a, b) {
   a = Math.abs(a);
   b = Math.abs(b);
   while (b) {
     [a, b] = [b, a % b];
   }
   return a;
-}
-
-export default { gcd };
+};
